@@ -3,32 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css"
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
     <title>Daniel Schmid</title>
   </head>
   <body>
+    <div ="wrap clearfix">
+    <header class="main-header clearfix">
+      <h1 id="home">Daniel Schmid</h1>
 
-    <header class="main-header">
-      <h1>Daniel Schmid | Web Developer</h1>
-    </header>
 
     <div class="main-nav">
-      <ul>
-        <li><a href="#"> Name </a></li>
-        <li><a href="#"> Portfolio </a></li>
-        <li><a href="#"> Contact </a></li>
+      <ul class="nav clearfix">
+        <li><a href="#home"> HOME </a></li>
+        <li><a href="#portfolio"> PORTFOLIO </a></li>
+        <li><a href="#contact"> CONTACT </a></li>
       </ul>
-      <div class="profile-image">
-        <img src="images/responsive-layout-profile.png"/>
-      </div>
+      </header>
     </div>
 
-    <main>
-      <p> Hi, I am an aspiring web developer. I am doing a degree via Treehouse and I am looking to get as much experience as possible to be able to become a front end web developer.</p>
+    <div ="banner clearfix">
+        <div class="profile-image">
+          <img src="images/responsive-layout-profile.png"/>
+        </div>
 
-      <div class="portfolio">
-      <h2>Portfolio</h2>
+
+      <main class="clearfix">
+        <p class="intro clearfix"> Hi, I am an aspiring web developer. I am doing a degree via Treehouse and I am looking to get as much experience as possible to be able to become a front end web developer.</p>
+    </div>
+
+      <div class="portfolio clearfix">
+      <h2 id="portfolio">Portfolio</h2>
       <ul>
         <li>
           <img src="images/portfolio-1.png"/>
@@ -61,15 +67,26 @@
           <p>Got a difficult sum? use this to find the answer.</p>
         </li>
       </di> <!-- portfolio-->
-
-      <h2>Contact</h3>
-      <p>If you want to get in contact about any of these projects or possibly any of your own it would be great to hear from you.</p>
+    </div>
+      <div class="contact clearfix">
+        <h2 id="contact">Contact</h3>
+        <p>If you want to get in contact about any of these projects or possibly any of your own it would be great to hear from you.</p>
+        <ul>
+          <li>Email: Danieljschmid@gmail.com</li>
+          <li>Phone: 07779930826 </li>
+        </ul>
+      </div>
 
     </main>
-
-    <footer class="main-footer">
-      <p>Daniel Schmid | Web Developer</p>
-      <p><a href="#">Back To Top</a></p>
+  </div>
+    <footer class="main-footer clearfix">
+      <p>Daniel Schmid</p>
+      <p class="top"><a href="#home">Back To Top</a></p>
+      <ul>
+        <li><a href="#home"> HOME </a></li>
+        <li><a href="#portfolio"> PORTFOLIO </a></li>
+        <li><a href="#contact"> CONTACT </a></li>
+      </ul>
     </footer>
 
 

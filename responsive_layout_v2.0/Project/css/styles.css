@@ -198,9 +198,7 @@
   .skills {
     background: #fff;
     padding-bottom: 10px;
-    width: 50%;
-    float: left;
-    clear: right;
+    text-align: center;
   }
 
   .contact {
@@ -275,10 +273,6 @@
   margin-bottom: 0;
 }
 
-.skills {
-  width: 33%;
-  float: none;
-}
 
 
 }

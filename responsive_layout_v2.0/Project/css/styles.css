@@ -2,6 +2,7 @@
 
  * {
    box-sizing: border-box;
+   /* border: 1px solid red; */
  }
 
  body {
@@ -27,6 +28,7 @@
 
  h1 {
    margin: 0 auto;
+   color: #6a615d;
  }
 
  .main-header {
@@ -76,6 +78,7 @@
 
 .portfolio p {
   margin-top: 5px;
+
 }
 
 .portfolio img {
@@ -85,6 +88,16 @@
 
 .portfolio li {
   list-style: none;
+  margin-top: 10px;
+}
+
+.map {
+  margin-bottom: 30px;
+}
+
+.skills h2{
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .contact {
@@ -97,7 +110,6 @@
 .contact li {
   line-height: 1.8em;
   list-style: none;
-  font-weight: bold;
 }
 
 .main-footer {
@@ -183,6 +195,14 @@
     background: #fff;
   }
 
+  .skills {
+    background: #fff;
+    padding-bottom: 10px;
+    width: 50%;
+    float: left;
+    clear: right;
+  }
+
   .contact {
     margin-top: 0;
   }
@@ -215,8 +235,16 @@
 @media (min-width: 1024px) {
 
 .portfolio {
-  max-width: 95%;
+  max-width: 98%;
   margin: auto;
+}
+
+.main-header,
+.main-nav,
+.nav,
+.nav ul,
+.nav li {
+  background: #fff;
 }
 
   .main-header h1 {
@@ -226,7 +254,7 @@
   }
 
 .main-nav {
-  width: 40%;
+  width: 580px;
   float: right;
 }
 
@@ -241,6 +269,15 @@
 .portfolio li {
   width: 33%;
   float: left;
+}
+
+.map p {
+  margin-bottom: 0;
+}
+
+.skills {
+  width: 33%;
+  float: none;
 }
 
 
